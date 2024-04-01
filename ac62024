@@ -1,0 +1,69 @@
+# -*- coding: utf-8 -*-
+
+'''
+Escreva a sua solução aqui
+Code your solution here
+Escriba su solución aquí
+'''
+import math
+ponto1=input().split(" ")
+ponto2=input().split(" ")
+
+x1=float(ponto1[0])
+y1=float(ponto1[1])
+x2=float(ponto2[0])
+y2=float(ponto2[1])
+
+resultado = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+
+print(f"%.4f"% resultado)
+
+
+
+
+# -*- coding: utf-8 -*-
+
+'''
+Escreva a sua solução aqui
+Code your solution here
+Escriba su solución aquí
+'''
+peca1=input().split(" ")
+peca2=input().split(" ")
+
+total=(int(peca1[1])*float(peca1[2]))+(int(peca2[1])*float(peca2[2]))
+
+print(f"VALOR A PAGAR: R$ %.2f" %total)
+
+
+
+
+# -*- coding: utf-8 -*-
+
+'''
+Escreva a sua solução aqui
+Code your solution here
+Escriba su solución aquí
+'''
+
+
+a = int(input())
+b = int(input())
+
+x = a + b
+
+print("X =", x)
+
+
+
+
+
+
+# -*- coding: utf-8 -*-
+
+'''
+Escreva a sua solução aqui
+Code your solution here
+Escriba su solución aquí
+'''
+print("Hello World!")
